@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/bandua-dark.svg">
-    <img src="assets/bandua-light.svg" alt="Bandua Studio" width="96">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/bandua-light.svg">
+    <img src="assets/bandua-dark.svg" alt="Bandua Studio" width="96">
   </picture>
 </p>
 
