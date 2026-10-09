@@ -295,13 +295,18 @@ Four rules, so this cannot recur:
 
 | Platform | Handle / URL | Bio or headline |
 |---|---|---|
-| GitHub | [ribaudequin](https://github.com/ribaudequin/) | Bandua Studio · things built to last |
-| X | [@banduastudio](https://x.com/banduastudio) | Bandua Studio · things built to last |
+| GitHub | [ribaudequin](https://github.com/ribaudequin/) | Bandua Studio · things built to last. Small, local, private tools. |
+| X | [@banduastudio](https://x.com/banduastudio) | Bandua Studio · things built to last. / Small, local, private tools. / No cloud. No accounts. No compromise. |
 | LinkedIn | [sinesdigital-marcelo-salvador](https://www.linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b) | Bandua Studio · Software Developer |
 | Patreon | [ribalinux](https://www.patreon.com/c/ribalinux) | Support my work on Patreon |
 | Ko-fi | [A0383T5](https://ko-fi.com/A0383T5) | Buy me a coffee |
 
-Full post and bio copy lives in `COMMUNICATION.md`.
+The X bio runs to three lines, with a blank line before the last. Full post and bio copy lives in
+`COMMUNICATION.md`.
+
+> **The LinkedIn URL cannot change.** LinkedIn fixes the profile slug at creation, so
+> `sinesdigital-marcelo-salvador-97705a2b` is permanent. Only a new profile would remove `sinesdigital`
+> from it.
 
 ---
 

@@ -1,11 +1,19 @@
 # X (Twitter) — @sinesdigital → @banduastudio
 
-**STATUS: handle DONE 2026-10-09.** The handle is now `@banduastudio` and `x.com/sinesdigital` returns
-404. Everything else below is **still pending** — avatar, banner, display name, bio, location and
-website all remain as they were.
+**STATUS: COMPLETE 2026-10-09.** Every field is applied and verified.
+
+| Field | Value | Verified |
+|---|---|---|
+| Handle | `@banduastudio` | `x.com/sinesdigital` returns 404 |
+| Display name | `Bandua Studio` | read from the profile |
+| Bio | English, brand voice | read from the profile |
+| Location | `Sines, Portugal` | read from the profile |
+| Website | `github.com/ribaudequin` | read from the profile |
+| Avatar | `avatar-teal-400.png` | pixel counts identical to the source file |
+| Banner | `x-1500x500.png`, variant C | 95 789 bleed pixels — matches the source |
 
 Account: **@banduastudio** (formerly @sinesdigital), created February 2011, 667 posts, 20 followers,
-120 following. Last post: **June 2015**.
+120 following. Last post: **June 2015** — the old history was left in place by choice.
 
 ---
 
