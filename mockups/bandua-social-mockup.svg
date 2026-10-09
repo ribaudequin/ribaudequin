@@ -3,12 +3,12 @@
     <style>
       @font-face {
         font-family: 'Space Grotesk';
-        src: url('/home/marcelo/.fonts/space-grotesk-400.ttf') format('truetype');
+        src: url('fonts/space-grotesk-400.woff2') format('truetype');
         font-weight: 400;
       }
       @font-face {
         font-family: 'Space Grotesk';
-        src: url('/home/marcelo/.fonts/space-grotesk-500.ttf') format('truetype');
+        src: url('fonts/space-grotesk-500.woff2') format('truetype');
         font-weight: 500;
       }
     </style>
