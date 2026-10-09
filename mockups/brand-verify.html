@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bandua Studio — brand verification</title>
+<style>
+  @font-face { font-family:'Space Grotesk'; src:local('Space Grotesk'); }
+  :root { --mist:#F2F5EE; --teal:#1F5F66; --moss:#5B7B3A; --deep:#0F2A2E; }
+  body { margin:0; padding:32px; background:#ffffff;
+         font-family:'Space Grotesk','DejaVu Sans',sans-serif; color:var(--deep); }
+  h1 { font-size:20px; margin:0 0 4px; font-weight:700; }
+  .sub { color:#5b6b63; font-size:13px; margin-bottom:28px; }
+  .row { display:flex; gap:20px; flex-wrap:wrap; margin-bottom:28px; }
+  .card { border:1px solid #e0e4dc; border-radius:10px; padding:14px; width:200px; }
+  .card.light { background:var(--mist); }
+  .card.dark  { background:var(--deep); color:var(--mist); }
+  .card img { display:block; width:120px; height:120px; margin:0 auto 10px; }
+  .cap { font-size:11px; text-align:center; opacity:.75; line-height:1.4; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em;
+       color:#7a8a82; margin:0 0 12px; font-weight:500; }
+  table { border-collapse:collapse; font-size:13px; }
+  th,td { text-align:left; padding:6px 14px 6px 0; border-bottom:1px solid #eef0ea; }
+  th { font-weight:500; color:#7a8a82; font-size:11px; text-transform:uppercase; letter-spacing:.06em; }
+  .sw { display:inline-block; width:11px; height:11px; border-radius:2px;
+        border:1px solid rgba(0,0,0,.15); vertical-align:-1px; margin-right:7px; }
+  .pass { color:#2e6b2e; font-weight:500; } .fail { color:#a3301f; font-weight:700; }
+  code { font-family:'JetBrains Mono','DejaVu Sans Mono',monospace; font-size:12px; }
+</style>
+</head>
+<body>
+  <h1>Bandua Studio — brand verification</h1>
+  <div class="sub">Pixel Arc rendered from the SVG sources · 9 October 2026</div>
+
+  <h2>Pixel Arc — the three canonical icons</h2>
+  <div class="row">
+    <div class="card light">
+      <img src="../brand/bandua-icon.svg" alt="icon">
+      <div class="cap">bandua-icon.svg<br>Teal + Deep · light bg</div>
+    </div>
+    <div class="card light">
+      <img src="../brand/bandua-icon-dark.svg" alt="icon dark">
+      <div class="cap">bandua-icon-dark.svg<br>Deep + Teal · light bg</div>
+    </div>
+    <div class="card dark">
+      <img src="../brand/bandua-icon-light.svg" alt="icon light">
+      <div class="cap">bandua-icon-light.svg<br>Teal + Mist · dark bg</div>
+    </div>
+  </div>
+
+  <h2>Palette and measured contrast</h2>
+  <table>
+    <tr><th>Foreground</th><th>Background</th><th>Ratio</th><th>AA text 4.5</th><th>AA UI 3.0</th></tr>
+    <tr><td><span class="sw" style="background:#0F2A2E"></span>Deep</td><td><span class="sw" style="background:#F2F5EE"></span>Mist</td><td>13.71:1</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#0F2A2E"></span>Deep</td><td><span class="sw" style="background:#ffffff"></span>White</td><td>15.10:1</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#1F5F66"></span>Teal</td><td><span class="sw" style="background:#ffffff"></span>White</td><td>7.27:1</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#1F5F66"></span>Teal</td><td><span class="sw" style="background:#F2F5EE"></span>Mist</td><td>6.61:1</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#5B7B3A"></span>Moss</td><td><span class="sw" style="background:#ffffff"></span>White</td><td>4.84:1</td><td class="pass">Pass</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#5B7B3A"></span>Moss</td><td><span class="sw" style="background:#F2F5EE"></span>Mist</td><td>4.40:1</td><td class="fail">Fail</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#5B7B3A"></span>Moss</td><td><span class="sw" style="background:#0F2A2E"></span>Deep</td><td>3.12:1</td><td class="fail">Fail</td><td class="pass">Pass</td></tr>
+    <tr><td><span class="sw" style="background:#1F5F66"></span>Teal</td><td><span class="sw" style="background:#0F2A2E"></span>Deep</td><td>2.08:1</td><td class="fail">Fail</td><td class="fail">Fail</td></tr>
+  </table>
+
+  <h2>Brandboard — corrected background</h2>
+  <div class="row">
+    <div class="card" style="width:420px;background:#000">
+      <img src="brandboard-preview.png" style="width:100%;height:auto" alt="brandboard">
+      <div class="cap" style="color:#F2F5EE">brandboard.svg — page background now #000000,<br>so the DEEP swatch is visible</div>
+    </div>
+    <div class="card" style="width:420px;background:#000">
+      <img src="brandboard-colors-section.png" style="width:100%;height:auto" alt="colors section">
+      <div class="cap" style="color:#F2F5EE">02 · Colors — all four swatches visible,<br>each with a hairline border</div>
+    </div>
+  </div>
+
+  <h2>Typography</h2>
+  <div style="font-size:30px; font-weight:700; letter-spacing:-.02em;">bandua studio</div>
+  <div style="font-size:15px; color:#5b6b63; margin-top:2px;">Things built to last. — Space Grotesk</div>
+  <div style="margin-top:12px;"><code>const bandua = await — JetBrains Mono</code></div>
+</body>
+</html>

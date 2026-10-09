@@ -1,0 +1,627 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-400.ttf') format('truetype');
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-500.ttf') format('truetype');
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="#0F2A2E"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Space Grotesk" font-size="14" font-weight="500" letter-spacing="3" fill="#F2F5EE" opacity="0.5">BANDUA STUDIO — SOCIAL MEDIA MOCKUPS</text>
+  
+  <!-- Card A: GitHub Profile -->
+  <rect x="50" y="80" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">A · GITHUB PROFILE</text>
+  
+  <!-- GitHub avatar -->
+  <circle cx="150" cy="200" r="60" fill="#1F5F66"/>
+  <g transform="translate(150, 200)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(150, 200)" fill="#0F2A2E">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  
+  <!-- GitHub profile info -->
+  <text x="230" y="180" font-family="Space Grotesk" font-size="18" font-weight="500" fill="#0F2A2E">Marcelo Salvador</text>
+  <text x="230" y="205" font-family="Space Grotesk" font-size="13" font-weight="400" fill="#0F2A2E" opacity="0.6">@ribaudequin</text>
+  <text x="230" y="235" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.5">Bandua Studio · things built to last</text>
+  
+  <!-- GitHub README header -->
+  <rect x="70" y="280" width="480" height="180" rx="8" fill="#0F2A2E"/>
+  <g transform="translate(310, 340)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(310, 340)" fill="#1F5F66">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  <text x="310" y="420" text-anchor="middle" font-family="Space Grotesk" font-size="24" font-weight="500" fill="#F2F5EE">bandua studio</text>
+  <text x="310" y="450" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="400" fill="#F2F5EE" opacity="0.6">Things built to last. by Marcelo Salvador</text>
+  
+  <!-- Card B: X/Twitter Profile -->
+  <rect x="620" y="80" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="640" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">B · X / TWITTER PROFILE</text>
+  
+  <!-- X banner -->
+  <rect x="640" y="130" width="480" height="160" rx="8" fill="#0F2A2E"/>
+  <g transform="translate(880, 190)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(880, 190)" fill="#1F5F66">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  <text x="880" y="260" text-anchor="middle" font-family="Space Grotesk" font-size="16" font-weight="500" fill="#F2F5EE">bandua studio</text>
+  
+  <!-- X avatar -->
+  <circle cx="700" cy="380" r="40" fill="#1F5F66"/>
+  <g transform="translate(700, 380)" fill="#F2F5EE">
+    <rect x="-14" y="-28" width="6" height="6"/>
+    <rect x="-8" y="-28" width="6" height="6"/>
+    <rect x="-2" y="-28" width="6" height="6"/>
+    <rect x="4" y="-28" width="6" height="6"/>
+    <rect x="10" y="-28" width="6" height="6"/>
+    <rect x="-20" y="-22" width="6" height="6"/>
+    <rect x="20" y="-22" width="6" height="6"/>
+    <rect x="-24" y="-16" width="6" height="6"/>
+    <rect x="24" y="-16" width="6" height="6"/>
+    <rect x="-28" y="-10" width="6" height="6"/>
+    <rect x="28" y="-10" width="6" height="6"/>
+    <rect x="-28" y="-4" width="6" height="6"/>
+    <rect x="28" y="-4" width="6" height="6"/>
+    <rect x="-28" y="2" width="6" height="6"/>
+    <rect x="28" y="2" width="6" height="6"/>
+    <rect x="-28" y="8" width="6" height="6"/>
+    <rect x="28" y="8" width="6" height="6"/>
+    <rect x="-28" y="14" width="6" height="6"/>
+    <rect x="28" y="14" width="6" height="6"/>
+  </g>
+  <g transform="translate(700, 380)" fill="#0F2A2E">
+    <rect x="-8" y="-16" width="6" height="6"/>
+    <rect x="-2" y="-16" width="6" height="6"/>
+    <rect x="4" y="-16" width="6" height="6"/>
+    <rect x="-14" y="-10" width="6" height="6"/>
+    <rect x="14" y="-10" width="6" height="6"/>
+    <rect x="-16" y="-4" width="6" height="6"/>
+    <rect x="16" y="-4" width="6" height="6"/>
+    <rect x="-16" y="2" width="6" height="6"/>
+    <rect x="16" y="2" width="6" height="6"/>
+    <rect x="-16" y="8" width="6" height="6"/>
+    <rect x="16" y="8" width="6" height="6"/>
+  </g>
+  
+  <!-- X profile info -->
+  <text x="760" y="370" font-family="Space Grotesk" font-size="16" font-weight="500" fill="#0F2A2E">Marcelo Salvador</text>
+  <text x="760" y="395" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.6">@sinesdigital</text>
+  <text x="760" y="420" font-family="Space Grotesk" font-size="11" font-weight="400" fill="#0F2A2E" opacity="0.5">Bandua Studio · things built to last</text>
+  
+  <!-- Card C: LinkedIn Profile -->
+  <rect x="50" y="520" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="550" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">C · LINKEDIN PROFILE</text>
+  
+  <!-- LinkedIn banner -->
+  <rect x="70" y="570" width="480" height="120" rx="8" fill="#1F5F66"/>
+  <g transform="translate(310, 620)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(310, 620)" fill="#0F2A2E">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  <text x="310" y="670" text-anchor="middle" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#F2F5EE">bandua studio</text>
+  
+  <!-- LinkedIn avatar -->
+  <circle cx="150" cy="780" r="50" fill="#0F2A2E"/>
+  <g transform="translate(150, 780)" fill="#F2F5EE">
+    <rect x="-16" y="-32" width="6" height="6"/>
+    <rect x="-10" y="-32" width="6" height="6"/>
+    <rect x="-4" y="-32" width="6" height="6"/>
+    <rect x="2" y="-32" width="6" height="6"/>
+    <rect x="8" y="-32" width="6" height="6"/>
+    <rect x="14" y="-32" width="6" height="6"/>
+    <rect x="-22" y="-26" width="6" height="6"/>
+    <rect x="22" y="-26" width="6" height="6"/>
+    <rect x="-28" y="-20" width="6" height="6"/>
+    <rect x="28" y="-20" width="6" height="6"/>
+    <rect x="-32" y="-14" width="6" height="6"/>
+    <rect x="32" y="-14" width="6" height="6"/>
+    <rect x="-32" y="-8" width="6" height="6"/>
+    <rect x="32" y="-8" width="6" height="6"/>
+    <rect x="-32" y="-2" width="6" height="6"/>
+    <rect x="32" y="-2" width="6" height="6"/>
+    <rect x="-32" y="4" width="6" height="6"/>
+    <rect x="32" y="4" width="6" height="6"/>
+    <rect x="-32" y="10" width="6" height="6"/>
+    <rect x="32" y="10" width="6" height="6"/>
+    <rect x="-32" y="16" width="6" height="6"/>
+    <rect x="32" y="16" width="6" height="6"/>
+  </g>
+  <g transform="translate(150, 780)" fill="#1F5F66">
+    <rect x="-10" y="-20" width="6" height="6"/>
+    <rect x="-4" y="-20" width="6" height="6"/>
+    <rect x="2" y="-20" width="6" height="6"/>
+    <rect x="8" y="-20" width="6" height="6"/>
+    <rect x="-16" y="-14" width="6" height="6"/>
+    <rect x="16" y="-14" width="6" height="6"/>
+    <rect x="-20" y="-8" width="6" height="6"/>
+    <rect x="20" y="-8" width="6" height="6"/>
+    <rect x="-20" y="-2" width="6" height="6"/>
+    <rect x="20" y="-2" width="6" height="6"/>
+    <rect x="-20" y="4" width="6" height="6"/>
+    <rect x="20" y="4" width="6" height="6"/>
+    <rect x="-20" y="10" width="6" height="6"/>
+    <rect x="20" y="10" width="6" height="6"/>
+  </g>
+  
+  <!-- LinkedIn profile info -->
+  <text x="220" y="770" font-family="Space Grotesk" font-size="16" font-weight="500" fill="#0F2A2E">Marcelo Salvador</text>
+  <text x="220" y="795" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.6">Bandua Studio · Software Developer</text>
+  <text x="220" y="820" font-family="Space Grotesk" font-size="11" font-weight="400" fill="#0F2A2E" opacity="0.5">Sines, Portugal</text>
+  
+  <!-- Card D: Patreon -->
+  <rect x="620" y="520" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="640" y="550" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">D · PATREON PAGE</text>
+  
+  <!-- Patreon banner -->
+  <rect x="640" y="570" width="480" height="200" rx="8" fill="#0F2A2E"/>
+  <g transform="translate(880, 650)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(880, 650)" fill="#1F5F66">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  <text x="880" y="720" text-anchor="middle" font-family="Space Grotesk" font-size="20" font-weight="500" fill="#F2F5EE">bandua studio</text>
+  <text x="880" y="750" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#F2F5EE" opacity="0.6">Support my work on Patreon</text>
+  
+  <!-- Patreon avatar -->
+  <circle cx="700" cy="850" r="35" fill="#1F5F66"/>
+  <g transform="translate(700, 850)" fill="#F2F5EE">
+    <rect x="-12" y="-24" width="5" height="5"/>
+    <rect x="-7" y="-24" width="5" height="5"/>
+    <rect x="-2" y="-24" width="5" height="5"/>
+    <rect x="3" y="-24" width="5" height="5"/>
+    <rect x="8" y="-24" width="5" height="5"/>
+    <rect x="-17" y="-19" width="5" height="5"/>
+    <rect x="17" y="-19" width="5" height="5"/>
+    <rect x="-22" y="-14" width="5" height="5"/>
+    <rect x="22" y="-14" width="5" height="5"/>
+    <rect x="-25" y="-9" width="5" height="5"/>
+    <rect x="25" y="-9" width="5" height="5"/>
+    <rect x="-25" y="-4" width="5" height="5"/>
+    <rect x="25" y="-4" width="5" height="5"/>
+    <rect x="-25" y="1" width="5" height="5"/>
+    <rect x="25" y="1" width="5" height="5"/>
+    <rect x="-25" y="6" width="5" height="5"/>
+    <rect x="25" y="6" width="5" height="5"/>
+    <rect x="-25" y="11" width="5" height="5"/>
+    <rect x="25" y="11" width="5" height="5"/>
+  </g>
+  <g transform="translate(700, 850)" fill="#0F2A2E">
+    <rect x="-7" y="-14" width="5" height="5"/>
+    <rect x="-2" y="-14" width="5" height="5"/>
+    <rect x="3" y="-14" width="5" height="5"/>
+    <rect x="-12" y="-9" width="5" height="5"/>
+    <rect x="12" y="-9" width="5" height="5"/>
+    <rect x="-14" y="-4" width="5" height="5"/>
+    <rect x="14" y="-4" width="5" height="5"/>
+    <rect x="-14" y="1" width="5" height="5"/>
+    <rect x="14" y="1" width="5" height="5"/>
+    <rect x="-14" y="6" width="5" height="5"/>
+    <rect x="14" y="6" width="5" height="5"/>
+  </g>
+  
+  <!-- Patreon info -->
+  <text x="750" y="840" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#0F2A2E">Marcelo Salvador</text>
+  <text x="750" y="865" font-family="Space Grotesk" font-size="11" font-weight="400" fill="#0F2A2E" opacity="0.6">Creating tools and software</text>
+  
+  <!-- Card E: Ko-fi -->
+  <rect x="50" y="960" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="990" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">E · KO-FI PAGE</text>
+  
+  <!-- Ko-fi banner -->
+  <rect x="70" y="1010" width="480" height="160" rx="8" fill="#1F5F66"/>
+  <g transform="translate(310, 1070)" fill="#F2F5EE">
+    <rect x="-20" y="-40" width="8" height="8"/>
+    <rect x="-12" y="-40" width="8" height="8"/>
+    <rect x="-4" y="-40" width="8" height="8"/>
+    <rect x="4" y="-40" width="8" height="8"/>
+    <rect x="12" y="-40" width="8" height="8"/>
+    <rect x="20" y="-40" width="8" height="8"/>
+    <rect x="-28" y="-32" width="8" height="8"/>
+    <rect x="28" y="-32" width="8" height="8"/>
+    <rect x="-36" y="-24" width="8" height="8"/>
+    <rect x="36" y="-24" width="8" height="8"/>
+    <rect x="-40" y="-16" width="8" height="8"/>
+    <rect x="40" y="-16" width="8" height="8"/>
+    <rect x="-40" y="-8" width="8" height="8"/>
+    <rect x="40" y="-8" width="8" height="8"/>
+    <rect x="-40" y="0" width="8" height="8"/>
+    <rect x="40" y="0" width="8" height="8"/>
+    <rect x="-40" y="8" width="8" height="8"/>
+    <rect x="40" y="8" width="8" height="8"/>
+    <rect x="-40" y="16" width="8" height="8"/>
+    <rect x="40" y="16" width="8" height="8"/>
+    <rect x="-40" y="24" width="8" height="8"/>
+    <rect x="40" y="24" width="8" height="8"/>
+  </g>
+  <g transform="translate(310, 1070)" fill="#0F2A2E">
+    <rect x="-12" y="-24" width="8" height="8"/>
+    <rect x="-4" y="-24" width="8" height="8"/>
+    <rect x="4" y="-24" width="8" height="8"/>
+    <rect x="12" y="-24" width="8" height="8"/>
+    <rect x="-20" y="-16" width="8" height="8"/>
+    <rect x="20" y="-16" width="8" height="8"/>
+    <rect x="-24" y="-8" width="8" height="8"/>
+    <rect x="24" y="-8" width="8" height="8"/>
+    <rect x="-24" y="0" width="8" height="8"/>
+    <rect x="24" y="0" width="8" height="8"/>
+    <rect x="-24" y="8" width="8" height="8"/>
+    <rect x="24" y="8" width="8" height="8"/>
+    <rect x="-24" y="16" width="8" height="8"/>
+    <rect x="24" y="16" width="8" height="8"/>
+  </g>
+  <text x="310" y="1120" text-anchor="middle" font-family="Space Grotesk" font-size="18" font-weight="500" fill="#F2F5EE">bandua studio</text>
+  <text x="310" y="1150" text-anchor="middle" font-family="Space Grotesk" font-size="11" font-weight="400" fill="#F2F5EE" opacity="0.6">Buy me a coffee</text>
+  
+  <!-- Ko-fi avatar -->
+  <circle cx="150" cy="1280" r="40" fill="#0F2A2E"/>
+  <g transform="translate(150, 1280)" fill="#F2F5EE">
+    <rect x="-14" y="-28" width="6" height="6"/>
+    <rect x="-8" y="-28" width="6" height="6"/>
+    <rect x="-2" y="-28" width="6" height="6"/>
+    <rect x="4" y="-28" width="6" height="6"/>
+    <rect x="10" y="-28" width="6" height="6"/>
+    <rect x="-20" y="-22" width="6" height="6"/>
+    <rect x="20" y="-22" width="6" height="6"/>
+    <rect x="-24" y="-16" width="6" height="6"/>
+    <rect x="24" y="-16" width="6" height="6"/>
+    <rect x="-28" y="-10" width="6" height="6"/>
+    <rect x="28" y="-10" width="6" height="6"/>
+    <rect x="-28" y="-4" width="6" height="6"/>
+    <rect x="28" y="-4" width="6" height="6"/>
+    <rect x="-28" y="2" width="6" height="6"/>
+    <rect x="28" y="2" width="6" height="6"/>
+    <rect x="-28" y="8" width="6" height="6"/>
+    <rect x="28" y="8" width="6" height="6"/>
+    <rect x="-28" y="14" width="6" height="6"/>
+    <rect x="28" y="14" width="6" height="6"/>
+  </g>
+  <g transform="translate(150, 1280)" fill="#1F5F66">
+    <rect x="-8" y="-20" width="6" height="6"/>
+    <rect x="-2" y="-20" width="6" height="6"/>
+    <rect x="4" y="-20" width="6" height="6"/>
+    <rect x="-14" y="-14" width="6" height="6"/>
+    <rect x="14" y="-14" width="6" height="6"/>
+    <rect x="-16" y="-8" width="6" height="6"/>
+    <rect x="16" y="-8" width="6" height="6"/>
+    <rect x="-16" y="-2" width="6" height="6"/>
+    <rect x="16" y="-2" width="6" height="6"/>
+    <rect x="-16" y="4" width="6" height="6"/>
+    <rect x="16" y="4" width="6" height="6"/>
+    <rect x="-16" y="10" width="6" height="6"/>
+    <rect x="16" y="10" width="6" height="6"/>
+  </g>
+  
+  <!-- Ko-fi info -->
+  <text x="210" y="1270" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#0F2A2E">Marcelo Salvador</text>
+  <text x="210" y="1295" font-family="Space Grotesk" font-size="11" font-weight="400" fill="#0F2A2E" opacity="0.6">Support my work on Ko-fi</text>
+  
+  <!-- Card F: Logo variations -->
+  <rect x="620" y="960" width="520" height="400" rx="16" fill="#F2F5EE"/>
+  <text x="640" y="990" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">F · LOGO VARIATIONS</text>
+  
+  <!-- Variation 1: Icon only -->
+  <circle cx="720" cy="1100" r="50" fill="#0F2A2E"/>
+  <g transform="translate(720, 1100)" fill="#F2F5EE">
+    <rect x="-16" y="-32" width="6" height="6"/>
+    <rect x="-10" y="-32" width="6" height="6"/>
+    <rect x="-4" y="-32" width="6" height="6"/>
+    <rect x="2" y="-32" width="6" height="6"/>
+    <rect x="8" y="-32" width="6" height="6"/>
+    <rect x="14" y="-32" width="6" height="6"/>
+    <rect x="-22" y="-26" width="6" height="6"/>
+    <rect x="22" y="-26" width="6" height="6"/>
+    <rect x="-28" y="-20" width="6" height="6"/>
+    <rect x="28" y="-20" width="6" height="6"/>
+    <rect x="-32" y="-14" width="6" height="6"/>
+    <rect x="32" y="-14" width="6" height="6"/>
+    <rect x="-32" y="-8" width="6" height="6"/>
+    <rect x="32" y="-8" width="6" height="6"/>
+    <rect x="-32" y="-2" width="6" height="6"/>
+    <rect x="32" y="-2" width="6" height="6"/>
+    <rect x="-32" y="4" width="6" height="6"/>
+    <rect x="32" y="4" width="6" height="6"/>
+    <rect x="-32" y="10" width="6" height="6"/>
+    <rect x="32" y="10" width="6" height="6"/>
+    <rect x="-32" y="16" width="6" height="6"/>
+    <rect x="32" y="16" width="6" height="6"/>
+  </g>
+  <g transform="translate(720, 1100)" fill="#1F5F66">
+    <rect x="-10" y="-20" width="6" height="6"/>
+    <rect x="-4" y="-20" width="6" height="6"/>
+    <rect x="2" y="-20" width="6" height="6"/>
+    <rect x="8" y="-20" width="6" height="6"/>
+    <rect x="-16" y="-14" width="6" height="6"/>
+    <rect x="16" y="-14" width="6" height="6"/>
+    <rect x="-20" y="-8" width="6" height="6"/>
+    <rect x="20" y="-8" width="6" height="6"/>
+    <rect x="-20" y="-2" width="6" height="6"/>
+    <rect x="20" y="-2" width="6" height="6"/>
+    <rect x="-20" y="4" width="6" height="6"/>
+    <rect x="20" y="4" width="6" height="6"/>
+    <rect x="-20" y="10" width="6" height="6"/>
+    <rect x="20" y="10" width="6" height="6"/>
+  </g>
+  <text x="720" y="1180" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Icon only</text>
+  
+  <!-- Variation 2: Icon + wordmark -->
+  <g transform="translate(880, 1100)" fill="#0F2A2E">
+    <rect x="-16" y="-32" width="6" height="6"/>
+    <rect x="-10" y="-32" width="6" height="6"/>
+    <rect x="-4" y="-32" width="6" height="6"/>
+    <rect x="2" y="-32" width="6" height="6"/>
+    <rect x="8" y="-32" width="6" height="6"/>
+    <rect x="14" y="-32" width="6" height="6"/>
+    <rect x="-22" y="-26" width="6" height="6"/>
+    <rect x="22" y="-26" width="6" height="6"/>
+    <rect x="-28" y="-20" width="6" height="6"/>
+    <rect x="28" y="-20" width="6" height="6"/>
+    <rect x="-32" y="-14" width="6" height="6"/>
+    <rect x="32" y="-14" width="6" height="6"/>
+    <rect x="-32" y="-8" width="6" height="6"/>
+    <rect x="32" y="-8" width="6" height="6"/>
+    <rect x="-32" y="-2" width="6" height="6"/>
+    <rect x="32" y="-2" width="6" height="6"/>
+    <rect x="-32" y="4" width="6" height="6"/>
+    <rect x="32" y="4" width="6" height="6"/>
+    <rect x="-32" y="10" width="6" height="6"/>
+    <rect x="32" y="10" width="6" height="6"/>
+    <rect x="-32" y="16" width="6" height="6"/>
+    <rect x="32" y="16" width="6" height="6"/>
+  </g>
+  <g transform="translate(880, 1100)" fill="#1F5F66">
+    <rect x="-10" y="-20" width="6" height="6"/>
+    <rect x="-4" y="-20" width="6" height="6"/>
+    <rect x="2" y="-20" width="6" height="6"/>
+    <rect x="8" y="-20" width="6" height="6"/>
+    <rect x="-16" y="-14" width="6" height="6"/>
+    <rect x="16" y="-14" width="6" height="6"/>
+    <rect x="-20" y="-8" width="6" height="6"/>
+    <rect x="20" y="-8" width="6" height="6"/>
+    <rect x="-20" y="-2" width="6" height="6"/>
+    <rect x="20" y="-2" width="6" height="6"/>
+    <rect x="-20" y="4" width="6" height="6"/>
+    <rect x="20" y="4" width="6" height="6"/>
+    <rect x="-20" y="10" width="6" height="6"/>
+    <rect x="20" y="10" width="6" height="6"/>
+  </g>
+  <text x="880" y="1180" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Icon + wordmark</text>
+  
+  <!-- Variation 3: Wordmark only -->
+  <text x="1040" y="1100" text-anchor="middle" font-family="Space Grotesk" font-size="24" font-weight="500" fill="#0F2A2E">bandua</text>
+  <text x="1040" y="1130" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Wordmark only</text>
+  
+  <!-- Variation 4: Full lockup -->
+  <g transform="translate(720, 1280)" fill="#0F2A2E">
+    <rect x="-16" y="-32" width="6" height="6"/>
+    <rect x="-10" y="-32" width="6" height="6"/>
+    <rect x="-4" y="-32" width="6" height="6"/>
+    <rect x="2" y="-32" width="6" height="6"/>
+    <rect x="8" y="-32" width="6" height="6"/>
+    <rect x="14" y="-32" width="6" height="6"/>
+    <rect x="-22" y="-26" width="6" height="6"/>
+    <rect x="22" y="-26" width="6" height="6"/>
+    <rect x="-28" y="-20" width="6" height="6"/>
+    <rect x="28" y="-20" width="6" height="6"/>
+    <rect x="-32" y="-14" width="6" height="6"/>
+    <rect x="32" y="-14" width="6" height="6"/>
+    <rect x="-32" y="-8" width="6" height="6"/>
+    <rect x="32" y="-8" width="6" height="6"/>
+    <rect x="-32" y="-2" width="6" height="6"/>
+    <rect x="32" y="-2" width="6" height="6"/>
+    <rect x="-32" y="4" width="6" height="6"/>
+    <rect x="32" y="4" width="6" height="6"/>
+    <rect x="-32" y="10" width="6" height="6"/>
+    <rect x="32" y="10" width="6" height="6"/>
+    <rect x="-32" y="16" width="6" height="6"/>
+    <rect x="32" y="16" width="6" height="6"/>
+  </g>
+  <g transform="translate(720, 1280)" fill="#1F5F66">
+    <rect x="-10" y="-20" width="6" height="6"/>
+    <rect x="-4" y="-20" width="6" height="6"/>
+    <rect x="2" y="-20" width="6" height="6"/>
+    <rect x="8" y="-20" width="6" height="6"/>
+    <rect x="-16" y="-14" width="6" height="6"/>
+    <rect x="16" y="-14" width="6" height="6"/>
+    <rect x="-20" y="-8" width="6" height="6"/>
+    <rect x="20" y="-8" width="6" height="6"/>
+    <rect x="-20" y="-2" width="6" height="6"/>
+    <rect x="20" y="-2" width="6" height="6"/>
+    <rect x="-20" y="4" width="6" height="6"/>
+    <rect x="20" y="4" width="6" height="6"/>
+    <rect x="-20" y="10" width="6" height="6"/>
+    <rect x="20" y="10" width="6" height="6"/>
+  </g>
+  <text x="720" y="1340" text-anchor="middle" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#0F2A2E">bandua</text>
+  <text x="720" y="1360" text-anchor="middle" font-family="Space Grotesk" font-size="8" font-weight="500" fill="#0F2A2E" opacity="0.5">STUDIO</text>
+  <text x="720" y="1380" text-anchor="middle" font-family="Space Grotesk" font-size="7" font-weight="400" fill="#0F2A2E" opacity="0.4">by Marcelo Salvador</text>
+</svg>

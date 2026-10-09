@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-400.ttf') format('truetype');
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-500.ttf') format('truetype');
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#0F2A2E"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Space Grotesk" font-size="14" font-weight="500" letter-spacing="3" fill="#F2F5EE" opacity="0.5">BANDUA STUDIO — DIGITAL ARC VARIATIONS</text>
+  
+  <!-- Card A: Arc + Circuit Nodes -->
+  <rect x="50" y="80" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">A · ARC + CIRCUIT</text>
+  <g transform="translate(220, 200)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <circle cx="-50" cy="50" r="6" fill="#0F2A2E"/>
+    <circle cx="50" cy="50" r="6" fill="#0F2A2E"/>
+    <circle cx="0" cy="-25" r="4" fill="#0F2A2E"/>
+  </g>
+  <text x="220" y="310" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with circuit nodes</text>
+  <text x="220" y="340" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Digital connection points</text>
+  
+  <!-- Card B: Arc + Binary -->
+  <rect x="430" y="80" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="450" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">B · ARC + BINARY</text>
+  <g transform="translate(600, 200)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <text x="-35" y="65" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#0F2A2E" stroke="none">1010</text>
+    <text x="15" y="65" font-family="Space Grotesk" font-size="14" font-weight="500" fill="#0F2A2E" stroke="none">0101</text>
+  </g>
+  <text x="600" y="310" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with binary code</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Digital data / code</text>
+  
+  <!-- Card C: Arc + Pixels -->
+  <rect x="810" y="80" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="830" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">C · ARC + PIXELS</text>
+  <g transform="translate(980, 200)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <rect x="-40" y="55" width="8" height="8" fill="#0F2A2E" stroke="none"/>
+    <rect x="-25" y="55" width="8" height="8" fill="#0F2A2E" stroke="none"/>
+    <rect x="17" y="55" width="8" height="8" fill="#0F2A2E" stroke="none"/>
+    <rect x="32" y="55" width="8" height="8" fill="#0F2A2E" stroke="none"/>
+  </g>
+  <text x="980" y="310" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with pixel blocks</text>
+  <text x="980" y="340" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Digital / retro computing</text>
+  
+  <!-- Card D: Arc + Terminal -->
+  <rect x="50" y="500" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="530" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">D · ARC + TERMINAL</text>
+  <g transform="translate(220, 620)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <text x="-20" y="30" font-family="Space Grotesk" font-size="16" font-weight="500" fill="#0F2A2E" stroke="none">&gt;_</text>
+  </g>
+  <text x="220" y="730" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with terminal prompt</text>
+  <text x="220" y="760" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Command line / developer</text>
+  
+  <!-- Card E: Arc + Network -->
+  <rect x="430" y="500" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="450" y="530" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">E · ARC + NETWORK</text>
+  <g transform="translate(600, 620)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <circle cx="-30" cy="0" r="5" fill="#0F2A2E"/>
+    <circle cx="0" cy="-15" r="5" fill="#0F2A2E"/>
+    <circle cx="30" cy="0" r="5" fill="#0F2A2E"/>
+    <path d="M-30 0 L0 -15 L30 0" stroke-width="2"/>
+  </g>
+  <text x="600" y="730" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with network nodes</text>
+  <text x="600" y="760" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Connected / distributed</text>
+  
+  <!-- Card F: Arc + Code Brackets -->
+  <rect x="810" y="500" width="340" height="380" rx="16" fill="#F2F5EE"/>
+  <text x="830" y="530" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">F · ARC + BRACKETS</text>
+  <g transform="translate(980, 620)" stroke="#0F2A2E" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M-50 50 V25 A50 50 0 0 1 50 25 V50"/>
+    <text x="-25" y="35" font-family="Space Grotesk" font-size="20" font-weight="500" fill="#0F2A2E" stroke="none">{ }</text>
+  </g>
+  <text x="980" y="730" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Arc with code brackets</text>
+  <text x="980" y="760" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Programming / structure</text>
+</svg>

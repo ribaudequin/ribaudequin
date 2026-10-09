@@ -1,0 +1,398 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-400.ttf') format('truetype');
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url('/home/marcelo/.fonts/space-grotesk-500.ttf') format('truetype');
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#0F2A2E"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Space Grotesk" font-size="14" font-weight="500" letter-spacing="3" fill="#F2F5EE" opacity="0.5">BANDUA STUDIO — PIXEL ARC</text>
+  
+  <!-- Card A: Pixel Arc (large) -->
+  <rect x="50" y="80" width="520" height="520" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">A · PIXEL ARC</text>
+  
+  <!-- Pixel grid: 2 arcs made of squares -->
+  <g transform="translate(310, 340)">
+    <!-- Outer arc (pixelated) -->
+    <g fill="#0F2A2E">
+      <!-- Row 1 (top) -->
+      <rect x="-40" y="-80" width="16" height="16"/>
+      <rect x="-24" y="-80" width="16" height="16"/>
+      <rect x="-8" y="-80" width="16" height="16"/>
+      <rect x="8" y="-80" width="16" height="16"/>
+      <rect x="24" y="-80" width="16" height="16"/>
+      <rect x="40" y="-80" width="16" height="16"/>
+      <!-- Row 2 -->
+      <rect x="-56" y="-64" width="16" height="16"/>
+      <rect x="56" y="-64" width="16" height="16"/>
+      <!-- Row 3 -->
+      <rect x="-72" y="-48" width="16" height="16"/>
+      <rect x="72" y="-48" width="16" height="16"/>
+      <!-- Row 4 -->
+      <rect x="-80" y="-32" width="16" height="16"/>
+      <rect x="80" y="-32" width="16" height="16"/>
+      <!-- Row 5 -->
+      <rect x="-80" y="-16" width="16" height="16"/>
+      <rect x="80" y="-16" width="16" height="16"/>
+      <!-- Row 6 -->
+      <rect x="-80" y="0" width="16" height="16"/>
+      <rect x="80" y="0" width="16" height="16"/>
+      <!-- Row 7 -->
+      <rect x="-80" y="16" width="16" height="16"/>
+      <rect x="80" y="16" width="16" height="16"/>
+      <!-- Row 8 -->
+      <rect x="-80" y="32" width="16" height="16"/>
+      <rect x="80" y="32" width="16" height="16"/>
+      <!-- Row 9 -->
+      <rect x="-80" y="48" width="16" height="16"/>
+      <rect x="80" y="48" width="16" height="16"/>
+      <!-- Row 10 -->
+      <rect x="-80" y="64" width="16" height="16"/>
+      <rect x="80" y="64" width="16" height="16"/>
+    </g>
+    
+    <!-- Inner arc (pixelated) -->
+    <g fill="#1F5F66">
+      <!-- Row 1 (top) -->
+      <rect x="-24" y="-48" width="16" height="16"/>
+      <rect x="-8" y="-48" width="16" height="16"/>
+      <rect x="8" y="-48" width="16" height="16"/>
+      <rect x="24" y="-48" width="16" height="16"/>
+      <!-- Row 2 -->
+      <rect x="-40" y="-32" width="16" height="16"/>
+      <rect x="40" y="-32" width="16" height="16"/>
+      <!-- Row 3 -->
+      <rect x="-48" y="-16" width="16" height="16"/>
+      <rect x="48" y="-16" width="16" height="16"/>
+      <!-- Row 4 -->
+      <rect x="-48" y="0" width="16" height="16"/>
+      <rect x="48" y="0" width="16" height="16"/>
+      <!-- Row 5 -->
+      <rect x="-48" y="16" width="16" height="16"/>
+      <rect x="48" y="16" width="16" height="16"/>
+      <!-- Row 6 -->
+      <rect x="-48" y="32" width="16" height="16"/>
+      <rect x="48" y="32" width="16" height="16"/>
+      <!-- Row 7 -->
+      <rect x="-48" y="48" width="16" height="16"/>
+      <rect x="48" y="48" width="16" height="16"/>
+    </g>
+  </g>
+  
+  <text x="310" y="530" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Two arcs made of pixel blocks</text>
+  <text x="310" y="560" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Digital / retro computing / shelter</text>
+  
+  <!-- Card B: Pixel Arc (small, icon size) -->
+  <rect x="620" y="80" width="520" height="520" rx="16" fill="#F2F5EE"/>
+  <text x="640" y="110" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">B · PIXEL ARC (ICON SIZE)</text>
+  
+  <!-- Small pixel arc -->
+  <g transform="translate(880, 300)">
+    <!-- Outer arc -->
+    <g fill="#0F2A2E">
+      <rect x="-20" y="-40" width="8" height="8"/>
+      <rect x="-12" y="-40" width="8" height="8"/>
+      <rect x="-4" y="-40" width="8" height="8"/>
+      <rect x="4" y="-40" width="8" height="8"/>
+      <rect x="12" y="-40" width="8" height="8"/>
+      <rect x="20" y="-40" width="8" height="8"/>
+      <rect x="-28" y="-32" width="8" height="8"/>
+      <rect x="28" y="-32" width="8" height="8"/>
+      <rect x="-36" y="-24" width="8" height="8"/>
+      <rect x="36" y="-24" width="8" height="8"/>
+      <rect x="-40" y="-16" width="8" height="8"/>
+      <rect x="40" y="-16" width="8" height="8"/>
+      <rect x="-40" y="-8" width="8" height="8"/>
+      <rect x="40" y="-8" width="8" height="8"/>
+      <rect x="-40" y="0" width="8" height="8"/>
+      <rect x="40" y="0" width="8" height="8"/>
+      <rect x="-40" y="8" width="8" height="8"/>
+      <rect x="40" y="8" width="8" height="8"/>
+      <rect x="-40" y="16" width="8" height="8"/>
+      <rect x="40" y="16" width="8" height="8"/>
+      <rect x="-40" y="24" width="8" height="8"/>
+      <rect x="40" y="24" width="8" height="8"/>
+    </g>
+    <!-- Inner arc -->
+    <g fill="#1F5F66">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+  </g>
+  
+  <!-- Icon size comparison -->
+  <g transform="translate(880, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">ICON SIZE (64px)</text>
+    <!-- 64px version -->
+    <g transform="translate(-120, 40)">
+      <g fill="#0F2A2E">
+        <rect x="-10" y="-20" width="4" height="4"/>
+        <rect x="-6" y="-20" width="4" height="4"/>
+        <rect x="-2" y="-20" width="4" height="4"/>
+        <rect x="2" y="-20" width="4" height="4"/>
+        <rect x="6" y="-20" width="4" height="4"/>
+        <rect x="10" y="-20" width="4" height="4"/>
+        <rect x="-14" y="-16" width="4" height="4"/>
+        <rect x="14" y="-16" width="4" height="4"/>
+        <rect x="-18" y="-12" width="4" height="4"/>
+        <rect x="18" y="-12" width="4" height="4"/>
+        <rect x="-20" y="-8" width="4" height="4"/>
+        <rect x="20" y="-8" width="4" height="4"/>
+        <rect x="-20" y="-4" width="4" height="4"/>
+        <rect x="20" y="-4" width="4" height="4"/>
+        <rect x="-20" y="0" width="4" height="4"/>
+        <rect x="20" y="0" width="4" height="4"/>
+        <rect x="-20" y="4" width="4" height="4"/>
+        <rect x="20" y="4" width="4" height="4"/>
+        <rect x="-20" y="8" width="4" height="4"/>
+        <rect x="20" y="8" width="4" height="4"/>
+        <rect x="-20" y="12" width="4" height="4"/>
+        <rect x="20" y="12" width="4" height="4"/>
+      </g>
+      <g fill="#1F5F66">
+        <rect x="-6" y="-12" width="4" height="4"/>
+        <rect x="-2" y="-12" width="4" height="4"/>
+        <rect x="2" y="-12" width="4" height="4"/>
+        <rect x="6" y="-12" width="4" height="4"/>
+        <rect x="-10" y="-8" width="4" height="4"/>
+        <rect x="10" y="-8" width="4" height="4"/>
+        <rect x="-12" y="-4" width="4" height="4"/>
+        <rect x="12" y="-4" width="4" height="4"/>
+        <rect x="-12" y="0" width="4" height="4"/>
+        <rect x="12" y="0" width="4" height="4"/>
+        <rect x="-12" y="4" width="4" height="4"/>
+        <rect x="12" y="4" width="4" height="4"/>
+        <rect x="-12" y="8" width="4" height="4"/>
+        <rect x="12" y="8" width="4" height="4"/>
+      </g>
+    </g>
+  </g>
+  
+  <text x="880" y="530" text-anchor="middle" font-family="Space Grotesk" font-size="13" font-weight="500" fill="#0F2A2E" opacity="0.6">Pixel arc at icon size</text>
+  <text x="880" y="560" text-anchor="middle" font-family="Space Grotesk" font-size="12" font-weight="400" fill="#0F2A2E" opacity="0.4">Readable even at small sizes</text>
+  
+  <!-- Card C: Pixel Arc with color variations -->
+  <rect x="50" y="640" width="1090" height="240" rx="16" fill="#F2F5EE"/>
+  <text x="70" y="670" font-family="Space Grotesk" font-size="11" font-weight="600" letter-spacing="2" fill="#0F2A2E" opacity="0.4">C · COLOR VARIATIONS</text>
+  
+  <!-- Variation 1: Teal + Deep -->
+  <g transform="translate(200, 760)">
+    <g fill="#1F5F66">
+      <rect x="-20" y="-40" width="8" height="8"/>
+      <rect x="-12" y="-40" width="8" height="8"/>
+      <rect x="-4" y="-40" width="8" height="8"/>
+      <rect x="4" y="-40" width="8" height="8"/>
+      <rect x="12" y="-40" width="8" height="8"/>
+      <rect x="20" y="-40" width="8" height="8"/>
+      <rect x="-28" y="-32" width="8" height="8"/>
+      <rect x="28" y="-32" width="8" height="8"/>
+      <rect x="-36" y="-24" width="8" height="8"/>
+      <rect x="36" y="-24" width="8" height="8"/>
+      <rect x="-40" y="-16" width="8" height="8"/>
+      <rect x="40" y="-16" width="8" height="8"/>
+      <rect x="-40" y="-8" width="8" height="8"/>
+      <rect x="40" y="-8" width="8" height="8"/>
+      <rect x="-40" y="0" width="8" height="8"/>
+      <rect x="40" y="0" width="8" height="8"/>
+      <rect x="-40" y="8" width="8" height="8"/>
+      <rect x="40" y="8" width="8" height="8"/>
+      <rect x="-40" y="16" width="8" height="8"/>
+      <rect x="40" y="16" width="8" height="8"/>
+      <rect x="-40" y="24" width="8" height="8"/>
+      <rect x="40" y="24" width="8" height="8"/>
+    </g>
+    <g fill="#0F2A2E">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Teal + Deep</text>
+  </g>
+  
+  <!-- Variation 2: Moss + Deep -->
+  <g transform="translate(450, 760)">
+    <g fill="#5B7B3A">
+      <rect x="-20" y="-40" width="8" height="8"/>
+      <rect x="-12" y="-40" width="8" height="8"/>
+      <rect x="-4" y="-40" width="8" height="8"/>
+      <rect x="4" y="-40" width="8" height="8"/>
+      <rect x="12" y="-40" width="8" height="8"/>
+      <rect x="20" y="-40" width="8" height="8"/>
+      <rect x="-28" y="-32" width="8" height="8"/>
+      <rect x="28" y="-32" width="8" height="8"/>
+      <rect x="-36" y="-24" width="8" height="8"/>
+      <rect x="36" y="-24" width="8" height="8"/>
+      <rect x="-40" y="-16" width="8" height="8"/>
+      <rect x="40" y="-16" width="8" height="8"/>
+      <rect x="-40" y="-8" width="8" height="8"/>
+      <rect x="40" y="-8" width="8" height="8"/>
+      <rect x="-40" y="0" width="8" height="8"/>
+      <rect x="40" y="0" width="8" height="8"/>
+      <rect x="-40" y="8" width="8" height="8"/>
+      <rect x="40" y="8" width="8" height="8"/>
+      <rect x="-40" y="16" width="8" height="8"/>
+      <rect x="40" y="16" width="8" height="8"/>
+      <rect x="-40" y="24" width="8" height="8"/>
+      <rect x="40" y="24" width="8" height="8"/>
+    </g>
+    <g fill="#0F2A2E">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Moss + Deep</text>
+  </g>
+  
+  <!-- Variation 3: Deep + Teal -->
+  <g transform="translate(700, 760)">
+    <g fill="#0F2A2E">
+      <rect x="-20" y="-40" width="8" height="8"/>
+      <rect x="-12" y="-40" width="8" height="8"/>
+      <rect x="-4" y="-40" width="8" height="8"/>
+      <rect x="4" y="-40" width="8" height="8"/>
+      <rect x="12" y="-40" width="8" height="8"/>
+      <rect x="20" y="-40" width="8" height="8"/>
+      <rect x="-28" y="-32" width="8" height="8"/>
+      <rect x="28" y="-32" width="8" height="8"/>
+      <rect x="-36" y="-24" width="8" height="8"/>
+      <rect x="36" y="-24" width="8" height="8"/>
+      <rect x="-40" y="-16" width="8" height="8"/>
+      <rect x="40" y="-16" width="8" height="8"/>
+      <rect x="-40" y="-8" width="8" height="8"/>
+      <rect x="40" y="-8" width="8" height="8"/>
+      <rect x="-40" y="0" width="8" height="8"/>
+      <rect x="40" y="0" width="8" height="8"/>
+      <rect x="-40" y="8" width="8" height="8"/>
+      <rect x="40" y="8" width="8" height="8"/>
+      <rect x="-40" y="16" width="8" height="8"/>
+      <rect x="40" y="16" width="8" height="8"/>
+      <rect x="-40" y="24" width="8" height="8"/>
+      <rect x="40" y="24" width="8" height="8"/>
+    </g>
+    <g fill="#1F5F66">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Deep + Teal</text>
+  </g>
+  
+  <!-- Variation 4: Monochrome -->
+  <g transform="translate(950, 760)">
+    <g fill="#0F2A2E">
+      <rect x="-20" y="-40" width="8" height="8"/>
+      <rect x="-12" y="-40" width="8" height="8"/>
+      <rect x="-4" y="-40" width="8" height="8"/>
+      <rect x="4" y="-40" width="8" height="8"/>
+      <rect x="12" y="-40" width="8" height="8"/>
+      <rect x="20" y="-40" width="8" height="8"/>
+      <rect x="-28" y="-32" width="8" height="8"/>
+      <rect x="28" y="-32" width="8" height="8"/>
+      <rect x="-36" y="-24" width="8" height="8"/>
+      <rect x="36" y="-24" width="8" height="8"/>
+      <rect x="-40" y="-16" width="8" height="8"/>
+      <rect x="40" y="-16" width="8" height="8"/>
+      <rect x="-40" y="-8" width="8" height="8"/>
+      <rect x="40" y="-8" width="8" height="8"/>
+      <rect x="-40" y="0" width="8" height="8"/>
+      <rect x="40" y="0" width="8" height="8"/>
+      <rect x="-40" y="8" width="8" height="8"/>
+      <rect x="40" y="8" width="8" height="8"/>
+      <rect x="-40" y="16" width="8" height="8"/>
+      <rect x="40" y="16" width="8" height="8"/>
+      <rect x="-40" y="24" width="8" height="8"/>
+      <rect x="40" y="24" width="8" height="8"/>
+    </g>
+    <g fill="#F2F5EE">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+    <g fill="#0F2A2E">
+      <rect x="-12" y="-24" width="8" height="8"/>
+      <rect x="-4" y="-24" width="8" height="8"/>
+      <rect x="4" y="-24" width="8" height="8"/>
+      <rect x="12" y="-24" width="8" height="8"/>
+      <rect x="-20" y="-16" width="8" height="8"/>
+      <rect x="20" y="-16" width="8" height="8"/>
+      <rect x="-24" y="-8" width="8" height="8"/>
+      <rect x="24" y="-8" width="8" height="8"/>
+      <rect x="-24" y="0" width="8" height="8"/>
+      <rect x="24" y="0" width="8" height="8"/>
+      <rect x="-24" y="8" width="8" height="8"/>
+      <rect x="24" y="8" width="8" height="8"/>
+      <rect x="-24" y="16" width="8" height="8"/>
+      <rect x="24" y="16" width="8" height="8"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="Space Grotesk" font-size="10" font-weight="500" fill="#0F2A2E" opacity="0.5">Monochrome</text>
+  </g>
+</svg>

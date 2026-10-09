@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pixel Arc — brandboard vs SVG, side by side</title>
+<style>
+  @font-face { font-family:'Space Grotesk'; src:local('Space Grotesk'); }
+  body { margin:0; padding:32px; background:#fff; font-family:'Space Grotesk','DejaVu Sans',sans-serif; color:#0F2A2E; }
+  h1 { font-size:19px; margin:0 0 4px; }
+  .sub { color:#6b7a72; font-size:13px; margin-bottom:26px; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.09em; color:#7a8a82; margin:26px 0 12px; font-weight:500; }
+  .row { display:flex; gap:26px; align-items:flex-end; flex-wrap:wrap; }
+  .cell { text-align:center; }
+  .cell .box { border:1px solid #e2e6de; border-radius:8px; padding:10px; background:#fff; }
+  .cell img { display:block; }
+  .lbl { font-size:11px; color:#6b7a72; margin-top:8px; line-height:1.5; }
+  .lbl b { color:#0F2A2E; font-weight:600; }
+  .good { color:#2e6b2e; font-weight:600; }
+  table { border-collapse:collapse; font-size:13px; margin-top:6px; }
+  th,td { text-align:left; padding:6px 18px 6px 0; border-bottom:1px solid #eef0ea; }
+  th { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:#7a8a82; font-weight:500; }
+  code { font-family:'JetBrains Mono','DejaVu Sans Mono',monospace; font-size:12px; }
+  .strike { color:#a3301f; text-decoration:line-through; }
+</style>
+</head>
+<body>
+  <h1>Pixel Arc — brandboard vs standalone SVG</h1>
+  <div class="sub">Same mark, drawn in two separate passes. Now reconciled to the brandboard geometry.</div>
+
+  <h2>Side by side</h2>
+  <div class="row">
+    <div class="cell">
+      <div class="box"><img src="bb-icon.png" width="192" height="160" alt="brandboard"></div>
+      <div class="lbl"><b>Brandboard</b><br>geometry extracted from <code>brandboard.svg</code><br>22+14 blocks · ratio 1.222</div>
+    </div>
+    <div class="cell">
+      <div class="box"><img src="../brand/bandua-icon.svg" width="208" height="208" alt="new icon"></div>
+      <div class="lbl"><b>bandua-icon.svg</b><br><span class="good">rebuilt · 22+14 blocks</span><br>ratio 1.222</div>
+    </div>
+  </div>
+
+  <h2>What changed</h2>
+  <table>
+    <tr><th>Property</th><th>Before</th><th>Now</th></tr>
+    <tr><td>Blocks — outer arc</td><td class="strike">25</td><td>22</td></tr>
+    <tr><td>Blocks — inner arc</td><td>14</td><td>14</td></tr>
+    <tr><td>Bounding box</td><td class="strike">104 × 64</td><td>88 × 72</td></tr>
+    <tr><td>Width / height ratio</td><td class="strike">1.625</td><td>1.222</td></tr>
+    <tr><td>Top row, share of width</td><td class="strike">84.6 %</td><td>54.5 %</td></tr>
+    <tr><td>Shoulder</td><td class="strike">none — 90° corner</td><td>6 → 2 → 2 → 2 blocks</td></tr>
+  </table>
+
+  <h2>All three variants</h2>
+  <div class="row">
+    <div class="cell"><div class="box"><img src="../brand/bandua-icon.svg" width="120" height="120" alt=""></div>
+      <div class="lbl">Teal + Deep<br>light bg</div></div>
+    <div class="cell"><div class="box"><img src="../brand/bandua-icon-dark.svg" width="120" height="120" alt=""></div>
+      <div class="lbl">Deep + Teal<br>light bg</div></div>
+    <div class="cell"><div class="box" style="background:#0F2A2E;border-color:#0F2A2E"><img src="../brand/bandua-icon-light.svg" width="120" height="120" alt=""></div>
+      <div class="lbl">Teal + Mist<br>dark bg</div></div>
+  </div>
+
+  <h2>Reference files</h2>
+  <div class="row">
+    <div class="cell"><div class="box"><img src="brandboard-preview.png" width="240" alt=""></div>
+      <div class="lbl"><code>brandboard-preview.png</code><br>full identity board</div></div>
+    <div class="cell"><div class="box"><img src="bandua-social-mockup.png" width="240" alt=""></div>
+      <div class="lbl"><code>bandua-social-mockup.png</code><br>profiles, all five platforms</div></div>
+  </div>
+</body>
+</html>
