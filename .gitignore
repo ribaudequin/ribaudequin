@@ -6,3 +6,6 @@ esboço.docx
 # Generated scratch
 profiles/.work*/
 profiles/.variants/
+
+# Working files kept local
+_local/
