@@ -296,7 +296,7 @@ Four rules, so this cannot recur:
 | Platform | Handle / URL | Bio or headline |
 |---|---|---|
 | GitHub | [ribaudequin](https://github.com/ribaudequin/) | Bandua Studio · things built to last |
-| X | [@sinesdigital](https://x.com/sinesdigital) | Bandua Studio · things built to last |
+| X | [@banduastudio](https://x.com/banduastudio) | Bandua Studio · things built to last |
 | LinkedIn | [sinesdigital-marcelo-salvador](https://www.linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b) | Bandua Studio · Software Developer |
 | Patreon | [ribalinux](https://www.patreon.com/c/ribalinux) | Support my work on Patreon |
 | Ko-fi | [A0383T5](https://ko-fi.com/A0383T5) | Buy me a coffee |

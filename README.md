@@ -42,7 +42,7 @@ These tools are free and open source. If one of them is useful to you, you can s
 ## Elsewhere
 
 <p>
-  <a href="https://x.com/sinesdigital">X</a> ·
+  <a href="https://x.com/banduastudio">X</a> ·
   <a href="https://www.linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b">LinkedIn</a> ·
   <a href="https://ko-fi.com/A0383T5">Ko-fi</a> ·
   <a href="https://www.patreon.com/c/ribalinux">Patreon</a>

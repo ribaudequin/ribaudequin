@@ -1,10 +1,11 @@
-# X (Twitter) — @sinesdigital → Bandua Studio
+# X (Twitter) — @sinesdigital → @banduastudio
 
-Everything below is ready. **You apply it** — the X API needs OAuth and there are no credentials
-configured, and I will not drive an authenticated session on your behalf.
+**STATUS: handle DONE 2026-10-09.** The handle is now `@banduastudio` and `x.com/sinesdigital` returns
+404. Everything else below is **still pending** — avatar, banner, display name, bio, location and
+website all remain as they were.
 
-Account: **@sinesdigital**, created February 2011, 667 posts, 20 followers, 120 following.
-Last post: **June 2015**.
+Account: **@banduastudio** (formerly @sinesdigital), created February 2011, 667 posts, 20 followers,
+120 following. Last post: **June 2015**.
 
 ---
 
@@ -115,9 +116,12 @@ can also mean a suspended or protected account.
 
 ## After this
 
-Once the handle changes, two things elsewhere need the new value:
+**Done:** the GitHub profile `twitter_username` is now `banduastudio`, and `brand/BRAND.md` §9 and the
+profile `README.md` link to the new handle.
 
-- GitHub profile `twitter_username` — currently `sinesdigital`
-- `brand/BRAND.md` §9 and `brand/COMMUNICATION.md` — both document `@sinesdigital`
+**Still to do:** `brand/COMMUNICATION.md` carries no explicit handle, so nothing to change there.
+`esboço.md` still lists the old URL — it is a working note, kept local, so it does not matter.
 
-Say the word and I will update both.
+LinkedIn is untouched: `linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b`. That slug cannot be
+changed on LinkedIn — the profile URL is fixed at creation. If the brand needs a LinkedIn URL without
+`sinesdigital` in it, the only route is a new profile.
