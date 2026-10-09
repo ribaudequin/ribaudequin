@@ -8,6 +8,31 @@ Profile: `linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b`
 
 ---
 
+## Current state — read from the profile 2026-10-09
+
+The profile is nearly empty. This is mostly **creation**, not replacement.
+
+| Field | Now | Target |
+|---|---|---|
+| Name | `Sinesdigital Marcelo Salvador` | `Marcelo Salvador` |
+| Headline | `Proprietário(a), Marcelo Salvador - Sinesdigital` (Portuguese) | `Bandua Studio · Software Developer` |
+| Location | `Setúbal, Portugal` | `Sines, Portugal` |
+| About | **empty — no section exists** | the text below |
+| Photo | old logo | `avatar-teal-400.png` |
+| Banner | **none** | `linkedin-1584x396.png` |
+| Activity | "You haven't posted yet" | — |
+| Connections / followers | 3 / 3 | — |
+| Profile language | Portuguese | — |
+
+There is **no old About text in Portuguese to undo** — the section does not exist. The only Portuguese
+content to replace is the headline.
+
+**Note on the name field:** LinkedIn requires a real name (§2.1 of the User Agreement). `Marcelo
+Salvador` goes there; the brand belongs in the headline. This is the opposite of X, where the display
+name is free text.
+
+---
+
 ## The URL cannot be changed
 
 LinkedIn fixes the profile slug at creation. `sinesdigital-marcelo-salvador-97705a2b` is permanent, and
@@ -106,21 +131,22 @@ belongs in the headline. This is the opposite of X, where the display name is fr
 
 ---
 
-## Order of operations
+## Known limitation
 
-1. **Photo** — `linkedin.com/in/…/edit/photo` or the pencil on the profile photo → upload
-2. **Banner** — pencil on the cover → upload
-3. **Headline** — pencil on the intro card → paste → Save
-4. **About** — *Add profile section* → *About* → paste → Save
-5. **Location / website / industry** — *Contact info* and the intro card
+I can **read** the profile through the desktop preview pane, but not **act** on it: the pane only
+takes actions in the session the user is looking at, and the automated browser has a separate, logged-out
+session. So the state above is observed, but the changes are yours to apply.
+
+I will not drive an authenticated session on your behalf in any case.
 
 ---
 
-## Known limitation
+## Order of operations
 
-I could not read the current profile: LinkedIn returns **HTTP 999** to automated requests and its public
-pages sit behind an authwall. Everything above is prepared from the brand guidelines and the asset
-files, **not** from observing what is live there now.
-
-So before you start, open the profile and check what is actually there — particularly whether the About
-section and headline are in Portuguese, which would need replacing rather than editing.
+1. **Name** — pencil on the intro card → `Marcelo Salvador` → Save
+2. **Headline** — same card → `Bandua Studio · Software Developer` → Save
+3. **Location** — same card → `Sines, Portugal` → Save
+4. **Photo** — pencil on the photo → upload `profiles/avatars/avatar-teal-400.png`
+5. **Banner** — pencil on the cover → upload `profiles/banners/linkedin-1584x396.png`
+6. **About** — *Add profile section* → *About* → paste → Save
+7. **Contact info** — add `https://github.com/ribaudequin` and the industry *Software Development*
