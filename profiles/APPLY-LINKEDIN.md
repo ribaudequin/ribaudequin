@@ -1,0 +1,126 @@
+# LinkedIn — personal profile
+
+**Scope: personal profile only.** A Company Page was considered and set aside — it would solve the
+`sinesdigital` URL problem, but it is a new public entity and the decision was to tidy the personal
+profile first.
+
+Profile: `linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b`
+
+---
+
+## The URL cannot be changed
+
+LinkedIn fixes the profile slug at creation. `sinesdigital-marcelo-salvador-97705a2b` is permanent, and
+no setting changes it. The only ways to remove `sinesdigital` from a LinkedIn URL are:
+
+- a **Company Page** (`linkedin.com/company/bandua-studio`) — set aside for now
+- a **new personal profile** — which would violate LinkedIn's one-account rule
+
+**One account per person.** LinkedIn's User Agreement, §2.1:
+
+> "you will only have one LinkedIn account, which must be in your real name"
+
+The rule is about *people*, not email addresses. Two accounts under two emails still breaks it, and
+LinkedIn detects duplicates by technical and behavioural signals — the usual outcome is restriction or
+suspension of **both**, including the main one. Not worth the risk.
+
+---
+
+## Files to upload
+
+| Field | File | Size |
+|---|---|---|
+| Profile photo | `profiles/avatars/avatar-teal-400.png` | 400 × 400 |
+| Background banner | `profiles/banners/linkedin-1584x396.png` | 1584 × 396 |
+
+Both match LinkedIn's current specification. Use **teal** for the photo: LinkedIn's dark theme
+surrounds the avatar with a very dark surface, where a Deep avatar would lose its edge.
+
+### The banner is safe on every crop
+
+LinkedIn trims the far edges on smaller screens and overlays the profile photo on the bottom-left.
+Measured on the actual file:
+
+| Check | Result |
+|---|---|
+| Lockup position | x 554–1031, y 90–305 — centred vertically (centre 198 of 396) |
+| Left / right margin | 554 px / 552 px |
+| Survives a 60 % centre crop (aggressive mobile) | **yes** |
+| Survives 70 % and 80 % crops | yes |
+| Bottom-left overlay zone (x 0–260, y 100–396) | **0 content pixels** |
+
+Nothing important sits near an edge or under the photo.
+
+---
+
+## Headline — copy exactly
+
+```
+Bandua Studio · Software Developer
+```
+
+45 characters. LinkedIn's limit is 220, so there is room — but this matches `BRAND.md` §9 and the
+existing guideline, and shorter reads better in search results.
+
+If you want the projects visible without expanding, this variant also fits:
+
+```
+Bandua Studio · building simple, local, private tools
+```
+
+---
+
+## About section — copy exactly
+
+```
+I build small, local, private tools — software that does one job well and keeps
+your data on your own machine.
+
+Currently working on:
+
+· clavis — encrypted notes for passwords, PINs and bank details
+· epub-library-manager — organise your EPUB library by series
+· ValidadorPT — offline validator for Portuguese NIF, IBAN and NIB
+
+No cloud. No accounts. No compromise.
+
+Things built to last.
+```
+
+English only — the brand's public-content rule. If the profile is currently in Portuguese, this is a
+change of language, not just of wording.
+
+---
+
+## Other fields
+
+| Field | Value |
+|---|---|
+| Name | Marcelo Salvador *(real name — required by the User Agreement)* |
+| Location | Sines, Portugal |
+| Website | `https://github.com/ribaudequin` |
+| Industry | Software Development |
+
+**Do not put "Bandua Studio" in the Name field.** LinkedIn requires a real name there, and the brand
+belongs in the headline. This is the opposite of X, where the display name is free text.
+
+---
+
+## Order of operations
+
+1. **Photo** — `linkedin.com/in/…/edit/photo` or the pencil on the profile photo → upload
+2. **Banner** — pencil on the cover → upload
+3. **Headline** — pencil on the intro card → paste → Save
+4. **About** — *Add profile section* → *About* → paste → Save
+5. **Location / website / industry** — *Contact info* and the intro card
+
+---
+
+## Known limitation
+
+I could not read the current profile: LinkedIn returns **HTTP 999** to automated requests and its public
+pages sit behind an authwall. Everything above is prepared from the brand guidelines and the asset
+files, **not** from observing what is live there now.
+
+So before you start, open the profile and check what is actually there — particularly whether the About
+section and headline are in Portuguese, which would need replacing rather than editing.
