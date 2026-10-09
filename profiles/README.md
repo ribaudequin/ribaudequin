@@ -162,6 +162,37 @@ regenerating:
 
 ---
 
+## Which script writes what
+
+Two scripts generate banners, and they must not write to the same path.
+
+| Script | Writes | Purpose |
+|---|---|---|
+| `scripts/banner-candidates.py` | `banners/c/`, `banners/d/` | Generates both candidate treatments |
+| `scripts/generate-profile-assets.py` | `banners/plain/`, `avatars/` | Avatars, plus the plain banner as a fallback |
+
+**`banners/` itself is hand-promoted.** After generating candidates, copy the chosen folder's files up
+to `banners/`. Nothing writes there automatically.
+
+> **This exists because of a real regression.** Re-running `generate-profile-assets.py` to add the
+> avatar rim silently overwrote the chosen variant C in `banners/` with the plain version — both scripts
+> pointed at the same directory. The loss was spotted only by eye, several steps later.
+
+### Guard
+
+```bash
+python3 scripts/verify-shipped-assets.py
+```
+
+Checks that every shipped file is the chosen variant: the banners carry the bleed (variant C), the
+avatars have the right field, and only the Deep avatar has a rim. Exits non-zero on failure, so it can
+gate a commit. Verified by deliberately swapping a banner for the plain version — it failed, with the
+file named.
+
+**Run it after any regeneration.**
+
+---
+
 ## Using these assets
 
 | Platform | Avatar | Banner |

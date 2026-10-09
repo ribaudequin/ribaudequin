@@ -37,7 +37,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "profiles"
 AVATARS = OUT / "avatars"
-BANNERS = OUT / "banners"
+BANNERS = OUT / "banners" / "plain"   # never the shipped path — see below
 WORK = OUT / ".work"
 
 INKSCAPE = [
@@ -260,8 +260,13 @@ def build_avatars() -> list[tuple[Path, int]]:
 
 # ---------------------------------------------------------------- banners
 
-# Content is centred so it survives every platform's crop. The mark is sized as
-# a fraction of banner height, in whole blocks, so it reads at every aspect.
+# The shipped banners are produced by scripts/banner-candidates.py, NOT here.
+# This script's banner output goes to banners/plain/ so it can never overwrite
+# the chosen variant again.
+#
+# That overwrite happened once: re-running this script to regenerate the avatars
+# silently replaced the chosen variant C with the plain version, and the loss was
+# only noticed by eye. Two scripts must not write to the same path.
 BANNER_SPECS = [
     ("github",   1280, 640),
     ("x",        1500, 500),
