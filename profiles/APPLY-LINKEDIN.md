@@ -4,7 +4,7 @@
 `sinesdigital` URL problem, but it is a new public entity and the decision was to tidy the personal
 profile first.
 
-Profile: `linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b`
+Profile: `linkedin.com/in/bandua-marcelo-salvador`
 
 ---
 
@@ -33,21 +33,26 @@ name is free text.
 
 ---
 
-## The URL cannot be changed
+## The URL — corrected
 
-LinkedIn fixes the profile slug at creation. `sinesdigital-marcelo-salvador-97705a2b` is permanent, and
-no setting changes it. The only ways to remove `sinesdigital` from a LinkedIn URL are:
+**My earlier claim was wrong.** I stated that LinkedIn fixes the profile slug at creation and that it
+could not be changed. It can. The slug is now `bandua-marcelo-salvador`, changed on 2026-10-09 from
+`sinesdigital-marcelo-salvador-97705a2b`.
 
-- a **Company Page** (`linkedin.com/company/bandua-studio`) — set aside for now
-- a **new personal profile** — which would violate LinkedIn's one-account rule
+Where the confusion came from: LinkedIn lets you **edit** the public profile URL, but only to a
+**custom** value of your choosing — not to arbitrary free text, and it is rate-limited (roughly five
+changes per six months). What is *not* possible is two personal accounts, which is a separate rule.
 
-**One account per person.** LinkedIn's User Agreement, §2.1:
+**One account per person** still holds. LinkedIn's User Agreement, §2.1:
 
 > "you will only have one LinkedIn account, which must be in your real name"
 
-The rule is about *people*, not email addresses. Two accounts under two emails still breaks it, and
-LinkedIn detects duplicates by technical and behavioural signals — the usual outcome is restriction or
-suspension of **both**, including the main one. Not worth the risk.
+That rule is about *people*, not email addresses, and it is why a second profile is not a route to a
+cleaner URL — editing the existing one is.
+
+**Links to the old slug break.** There is no redirect. Anything pointing at
+`sinesdigital-marcelo-salvador-97705a2b` now 404s, and that includes the GitHub profile, which has been
+updated.
 
 ---
 

@@ -130,6 +130,5 @@ profile `README.md` link to the new handle.
 **Still to do:** `brand/COMMUNICATION.md` carries no explicit handle, so nothing to change there.
 `esboço.md` still lists the old URL — it is a working note, kept local, so it does not matter.
 
-LinkedIn is untouched: `linkedin.com/in/sinesdigital-marcelo-salvador-97705a2b`. That slug cannot be
-changed on LinkedIn — the profile URL is fixed at creation. If the brand needs a LinkedIn URL without
-`sinesdigital` in it, the only route is a new profile.
+LinkedIn: the slug has since been changed to `linkedin.com/in/bandua-marcelo-salvador`. I had
+claimed the slug was fixed at creation — that was wrong; LinkedIn lets you edit it to a custom value.
