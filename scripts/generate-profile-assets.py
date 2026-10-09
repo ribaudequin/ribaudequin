@@ -202,6 +202,17 @@ AVATAR_SIZES = [512, 460, 400]
 AVATAR_SAFE = 0.88          # mark must stay inside 88% of the inscribed radius
 AVATAR_MIN_BLOCK = 8        # multiple of UNIT, and below this blocks read as noise
 
+# A dark avatar field needs a rim to hold its shape on dark surfaces.
+# Deep (#0F2A2E) measures 1.15-1.36:1 against GitHub's dark backgrounds, so the
+# circle loses its edge and the avatar reads as a shapeless patch. A 1px Mist rim
+# measures 17.19:1 there. The rim is a platform requirement, not decoration.
+AVATAR_RIM = 6               # rim width in px at master size
+
+
+def has_rim(bg: tuple[int, int, int]) -> bool:
+    """Only the Deep field carries a rim — see AVATAR_RIM above."""
+    return bg == tuple(int(DEEP.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
+
 
 def avatar_block(size: int) -> int:
     """Largest block size — a multiple of UNIT — whose farthest block corner
@@ -221,10 +232,17 @@ def build_avatars() -> list[tuple[Path, int]]:
     c = AVATAR_MASTER / 2
 
     for name, bg, fg in AVATAR_COLOURWAYS:
+        # A rim on dark fields only: Teal and Mist already separate from the
+        # surfaces they sit on, so a rim there would just add noise.
+        rim = ""
+        if bg == DEEP:
+            r = AVATAR_RIM
+            rim = (f'  <circle cx="{c}" cy="{c}" r="{c - r/2}" fill="none" '
+                   f'stroke="{MIST}" stroke-width="{r}"/>\n')
         body = (
             f'  <rect width="{AVATAR_MASTER}" height="{AVATAR_MASTER}" fill="{bg}"/>\n'
-            + mark_svg(c, c, block, fg, fg)
-        )
+            + mark_svg(c, c, block, fg, fg) + "\n" + rim
+        ).rstrip() + "\n"
         master = WORK / f"avatar-{name}-master.png"
         render(svg(AVATAR_MASTER, AVATAR_MASTER, body, f"Bandua Studio avatar, {name}"),
                master, AVATAR_MASTER)
@@ -323,25 +341,36 @@ def build_banners() -> list[tuple[Path, int]]:
 # ---------------------------------------------------------------- verify
 
 def verify_avatar(path: Path, block: int) -> str:
-    """Confirm the mark is centred and inside the inscribed circle."""
+    """Confirm the mark is centred and inside the inscribed circle.
+
+    The rim is excluded from the measurement. A rim by definition touches the
+    avatar's edge, so counting it would report the mark as clipped on every
+    rimmed avatar — a false positive. Only the mark's own extent matters here.
+    """
     with Image.open(path).convert("RGB") as im:
         w, h = im.size
         px = im.load()
         bg = px[1, 1]
-        xs, ys, worst = [], [], 0.0
         cx, cy = w / 2, h / 2
+        # The rim is a ring at the very edge; skip anything within its band.
+        edge = AVATAR_RIM + 2
+        xs, ys, worst = [], [], 0.0
         for y in range(h):
             for x in range(w):
-                if px[x, y] != bg:
-                    xs.append(x)
-                    ys.append(y)
-                    worst = max(worst, math.hypot(x + 0.5 - cx, y + 0.5 - cy))
+                if px[x, y] == bg:
+                    continue
+                if math.hypot(x + 0.5 - cx, y + 0.5 - cy) > w / 2 - edge:
+                    continue          # part of the rim, not the mark
+                xs.append(x)
+                ys.append(y)
+                worst = max(worst, math.hypot(x + 0.5 - cx, y + 0.5 - cy))
     mx, my = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
     dx, dy = mx - cx, my - cy
-    inside = worst <= w / 2
-    return (f"block={block}px  mark {max(xs)-min(xs)+1}x{max(ys)-min(ys)+1}  "
+    inside = worst <= w / 2 - edge
+    rimmed = " +rim" if has_rim(bg) else ""
+    return (f"block={block}px  mark {max(xs)-min(xs)+1}x{max(ys)-min(ys)+1}{rimmed}  "
             f"centre offset ({dx:+.1f},{dy:+.1f})px  "
-            f"radius {worst:.1f}/{w/2:.0f}  {'OK' if inside else 'CLIPPED'}")
+            f"radius {worst:.1f}/{w/2 - edge:.0f}  {'OK' if inside else 'CLIPPED'}")
 
 
 def verify_banner(path: Path, block: int) -> str:

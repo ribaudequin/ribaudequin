@@ -47,14 +47,37 @@ are empty, so the mark is larger than its bounding box suggests.
 
 Rendered once at 512 and downscaled to 460 and 400, so the mark is identical across platforms.
 
-| File | Field | Mark | Contrast |
+| File | Field | Mark | Contrast (mark vs field) |
 |---|---|---|---|
 | `avatars/avatar-teal-{512,460,400}.png` | Teal `#1F5F66` | Mist `#F2F5EE` | 6.61:1 |
-| `avatars/avatar-deep-{512,460,400}.png` | Deep `#0F2A2E` | Mist `#F2F5EE` | 13.71:1 |
+| `avatars/avatar-deep-{512,460,400}.png` | Deep `#0F2A2E` + Mist rim | Mist `#F2F5EE` | 13.71:1 |
 | `avatars/avatar-mist-{512,460,400}.png` | Mist `#F2F5EE` | Teal `#1F5F66` | 6.61:1 |
 
-All three clear the 3:1 threshold for a non-text mark. **Use `teal` as the primary** — Teal is the
-brand colour. `deep` is the highest-contrast option.
+All three clear the 3:1 threshold for a non-text mark.
+
+### The rim on the Deep avatar
+
+**In use: `avatar-deep-460.png`.** It carries a 6 px Mist rim at the master size, and that rim is not
+decoration — it is required.
+
+Contrast of the avatar's own field against the surfaces it sits on:
+
+| Avatar field | GitHub light | GitHub dark `#0D1117` | dark canvas `#010409` | dark card `#161B22` |
+|---|---|---|---|---|
+| Teal `#1F5F66` | 7.27:1 | 2.60:1 | 2.82:1 | 2.38:1 |
+| Deep `#0F2A2E` | 15.10:1 | **1.25:1** | **1.36:1** | **1.15:1** |
+| Deep **+ Mist rim** | 15.10:1 | **17.19:1** | **18.65:1** | **15.71:1** |
+
+Without the rim, a Deep avatar has no visible edge on any dark GitHub surface — the circle dissolves
+into the background. The rim gives the form a boundary. On light surfaces the rim is invisible against
+white, so it costs nothing.
+
+**A trap worth recording.** Measuring the mark *inside* the avatar is not enough. Deep gives the highest
+inner contrast (13.71:1 vs Mist) which is why it looks like the obvious choice — but the avatar also has
+to separate from the *page*. Measured only on the inside, Deep wins; measured against the surfaces it
+actually sits on, Deep without a rim is the worst option. Check both.
+
+### Choosing
 
 | Platform | File |
 |---|---|
