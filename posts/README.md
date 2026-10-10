@@ -32,7 +32,7 @@ folder list sorts itself chronologically.
 
 | Date | Slug | Platforms | Status |
 |---|---|---|---|
-| 2026-10-10 | `launch` | X · LinkedIn · Patreon · Ko-fi | draft |
+| 2026-10-10 | `launch` | X · LinkedIn · Patreon · Ko-fi | **published** |
 
 ## Starting a new post
 

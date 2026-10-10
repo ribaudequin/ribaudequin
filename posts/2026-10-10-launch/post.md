@@ -116,10 +116,12 @@ expires and nothing that needs verifying.
 
 | Platform | Published | Notes |
 |---|---|---|
-| X | | |
-| LinkedIn | | |
-| Patreon | | |
-| Ko-fi | | |
+| X | **2026-10-10** | post count 667 → 668 |
+| LinkedIn | **2026-10-10** | 1 reaction, 2 impressions within minutes |
+| Patreon | **2026-10-10** | "Agora mesmo"; post count 2 164 → 2 165 |
+| Ko-fi | **2026-10-10** | "just now"; image visible in the gallery |
+
+All four verified on the live pages, not assumed.
 
 ---
 
@@ -130,13 +132,12 @@ Every claim in the copy, against the repositories:
 - [x] **Three projects exist** — all three public on GitHub
 - [x] **Offline / no accounts / no cloud** — stated in all three READMEs
 - [x] **"Open source"** — the repositories are public
-- [ ] **"MIT"** — **deliberately not claimed.** No LICENSE file in any repository
+- [x] **"MIT"** — resolved 2026-10-10. `LICENSE` files added to all three repositories plus the brand
+      repo, and GitHub now reports `MIT` for each.
 - [x] No version numbers, no dates, no promises
 
-### One thing to fix before publishing
+### Resolved before publishing
 
-The three READMEs state a **MIT licence** but no `LICENSE` file exists in any of them. Either add the
-file, or remove the licence line from the READMEs. Right now the READMEs make a claim the repositories
-do not support — and the LinkedIn post says "all open source", which is true, while "MIT" would not be.
-
-Adding a `LICENSE` file is one command per repository and makes the claim true.
+The three READMEs claimed a **MIT licence** with no `LICENSE` file — and `epub-library-manager`'s README
+linked to it, so that link was **broken**, not merely unbacked. Fixed: a `LICENSE` file now exists in all
+four repositories, GitHub reports `MIT` for each, and the previously broken link returns 200.
