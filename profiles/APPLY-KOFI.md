@@ -158,6 +158,50 @@ knowing, and worth deciding whether the About text should acknowledge it.
 
 ---
 
+## Two payment settings worth checking
+
+### Contributor mode — may be taking 5 % of your tips
+
+Ko-fi's own help centre states:
+
+> "Everyone who joins Ko-fi now starts with **Contributor status**... That includes a **5 % service fee on tips**.
+> You can opt out anytime and keep tips completely free."
+
+Contributor mode is **on by default** for new accounts. Turning it off is what delivers the 0 % on tips
+that Ko-fi advertises. It is a legitimate programme — you are funding Ko-fi — but it is opt-out, not
+opt-in.
+
+**Where:** `Settings` → `Payment` → `Contributor` → toggle off.
+
+**Two honest caveats:**
+
+- I cannot see whether it is on for this account. The page has supporters from before, so it may already
+  be off. Only the payment panel shows it.
+- It does not apply retroactively to one-off donations already made, and Ko-fi notes that memberships or
+  recurring tips **started** while Contributor stay at 5 % even after you switch off.
+
+### Currency — USD is fine
+
+A supporter pays in their own currency and Ko-fi converts automatically to the creator's chosen one.
+There is no loss from running the page in USD; a Portuguese supporter simply pays in EUR and it
+converts. If most supporters turn out to be European, setting the account currency to EUR avoids one
+conversion step — but it is a payment setting, not a page setting, and not urgent.
+
+---
+
+## Tip amounts — $3 is right
+
+The single default is **$3**, which is Ko-fi's own default price for one "coffee" and the most-used
+value on the platform. Industry data puts **72 % of all tips on preset buttons** and the average tip at
+**$4.85**.
+
+So $3 is not too little — it is the standard. Adding more presets creates choice paralysis for no gain,
+and the free-amount field already covers anyone who wants to give more.
+
+**If you want one more**, $5 is the only addition worth making — the common middle option. Not necessary.
+
+---
+
 ## Order of operations
 
 1. ~~Page name~~ → done: `Bandua Studio`
