@@ -298,7 +298,7 @@ Four rules, so this cannot recur:
 | GitHub | [ribaudequin](https://github.com/ribaudequin/) | Bandua Studio · things built to last. Small, local, private tools. |
 | X | [@banduastudio](https://x.com/banduastudio) | Bandua Studio · things built to last. / Small, local, private tools. / No cloud. No accounts. No compromise. |
 | LinkedIn | [bandua-marcelo-salvador](https://www.linkedin.com/in/bandua-marcelo-salvador) | Bandua Studio · Software Developer |
-| Patreon | [ribalinux](https://www.patreon.com/c/ribalinux) | Support my work on Patreon |
+| Patreon | [banduastudio](https://www.patreon.com/banduastudio) | Support my work on Patreon |
 | Ko-fi | [A0383T5](https://ko-fi.com/A0383T5) | Buy me a coffee |
 
 The X bio runs to three lines, with a blank line before the last. Full post and bio copy lives in
