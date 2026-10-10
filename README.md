@@ -36,7 +36,7 @@ These tools are free and open source. If one of them is useful to you, you can s
 
 <p>
   <a href="https://ko-fi.com/A0383T5"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-ff5f5f?style=flat&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
-  <a href="https://www.patreon.com/c/ribalinux"><img src="https://img.shields.io/badge/Patreon-Support-f96854?style=flat&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://www.patreon.com/banduastudio"><img src="https://img.shields.io/badge/Patreon-Support-f96854?style=flat&logo=patreon&logoColor=white" alt="Patreon"></a>
 </p>
 
 ## Elsewhere
@@ -45,9 +45,13 @@ These tools are free and open source. If one of them is useful to you, you can s
   <a href="https://x.com/banduastudio">X</a> ·
   <a href="https://www.linkedin.com/in/bandua-marcelo-salvador">LinkedIn</a> ·
   <a href="https://ko-fi.com/A0383T5">Ko-fi</a> ·
-  <a href="https://www.patreon.com/c/ribalinux">Patreon</a>
+  <a href="https://www.patreon.com/banduastudio">Patreon</a>
 </p>
 
 ---
+
+## Licence
+
+[MIT](LICENSE) — see the [LICENSE](LICENSE) file for details.
 
 <p align="center"><sub>All projects are released under the MIT licence unless stated otherwise.</sub></p>
