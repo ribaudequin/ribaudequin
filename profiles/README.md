@@ -181,7 +181,7 @@ to `banners/`. Nothing writes there automatically.
 ### Guard
 
 ```bash
-python3 scripts/verify-shipped-assets.py
+/usr/bin/python3 scripts/verify-shipped-assets.py
 ```
 
 Checks that every shipped file is the chosen variant: the banners carry the bleed (variant C), the
@@ -190,6 +190,10 @@ gate a commit. Verified by deliberately swapping a banner for the plain version 
 file named.
 
 **Run it after any regeneration.**
+
+> **Use `/usr/bin/python3`, not the bare `python3`.** The Python on `PATH` here has no Pillow; the system
+> interpreter has Pillow 10. The scripts handle both versions (`get_flattened_data` exists only in
+> Pillow 11+), but they still need Pillow to be importable.
 
 ---
 

@@ -72,7 +72,11 @@ def check_banners() -> None:
         with Image.open(p).convert("RGB") as im:
             if im.size != size:
                 failures.append(f"{name}: size {im.size}, expected {size}")
-            c = Counter(im.get_flattened_data())
+            # get_flattened_data() only exists in Pillow 11+. The system python
+            # here has Pillow 10, so fall back to getdata().
+            pixels = (im.get_flattened_data() if hasattr(im, "get_flattened_data")
+                      else im.getdata())
+            c = Counter(pixels)
         bleed = c.get(BLEED, 0)
         if bleed < BLEED_MIN:
             failures.append(
