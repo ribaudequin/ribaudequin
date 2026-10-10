@@ -10,21 +10,24 @@ Page: `ko-fi.com/A0383T5`
 
 | Field | Now | Target |
 |---|---|---|
-| Page name | `ribaudequin` | `Bandua Studio` |
+| Page name | `ribaudequin` → **now `Bandua Studio`** | done |
 | About | `Creating Software` | the text below |
 | Avatar | uploaded 2026-08-21 | `avatar-teal-400.png` |
-| Banner | none — Ko-fi has no cover image | — |
+| Cover image | **none** | `banners/kofi-1200x400.png` |
 | Website link | `github.com/ribaudequin` | keep |
 | Category | `Software` | keep |
-| Goal | `Claude Pro` — 0% | **remove** |
+| Goal | `Claude Pro` — **removed** | done |
 
 **The name is the GitHub username, not the brand.** `ribaudequin` is your GitHub handle; a visitor
-arriving from the X or LinkedIn profile has no way to connect it to Bandua Studio. This is the single
-most important change here.
+arriving from the X or LinkedIn profile has no way to connect it to Bandua Studio. This was the single
+most important change here, and it is done — the page now reads "Buy Bandua Studio a Coffee".
 
-**Ko-fi has no banner.** Only an avatar and a page name sit at the top, so the avatar carries the whole
-identity. Use **teal** — it holds on both light and dark surfaces, and there is no rim or cover to help
-it.
+**Correction: Ko-fi does have a cover image.** I wrote earlier that it had none. It does — Ko-fi's own
+panel offers *Add cover image*, and its help centre gives the specification: **1200 × 400 px, 3:1 ratio,
+under 8 MB, JPEG or PNG**.
+
+The asset for it already exists and matches exactly: `profiles/banners/kofi-1200x400.png`, measured at
+1200 × 400 with a 3.00:1 ratio.
 
 ---
 
@@ -33,6 +36,22 @@ it.
 | Field | File | Size |
 |---|---|---|
 | Avatar | `profiles/avatars/avatar-teal-400.png` | 400 × 400 |
+| Cover image | `profiles/banners/kofi-1200x400.png` | 1200 × 400, 3:1 |
+
+Use **teal** for the avatar. Ko-fi's dark theme surrounds it with a dark surface, where a Deep avatar
+would need its rim to read at all.
+
+### The cover survives Ko-fi's mobile crop
+
+Ko-fi crops the cover's sides on mobile. Measured on the actual file:
+
+| Check | Result |
+|---|---|
+| Lockup position | x 362–839 of 1200 |
+| Left / right margin | 362 px / 360 px |
+| Survives a 75 % centre crop | **yes** |
+| Survives 85 % and 90 % crops | yes |
+| Bottom-left zone (x 0–200, lower half) | **0 content pixels** — clear for the avatar overlay |
 
 ---
 
@@ -141,8 +160,9 @@ knowing, and worth deciding whether the About text should acknowledge it.
 
 ## Order of operations
 
-1. **Page name** → `Bandua Studio`
-2. **About** → the text above
-3. **Avatar** → upload `profiles/avatars/avatar-teal-400.png`
-4. **Goal** → remove it (`Your Page` → Goal → ⋯ → Remove Goal)
-5. **Website** → already `github.com/ribaudequin`; keep
+1. ~~Page name~~ → done: `Bandua Studio`
+2. ~~Goal~~ → done: removed
+3. **About** → the text above (currently `Creating Software`)
+4. **Cover image** → upload `profiles/banners/kofi-1200x400.png`
+5. **Avatar** → upload `profiles/avatars/avatar-teal-400.png`
+6. **Website** → already `github.com/ribaudequin`; keep
