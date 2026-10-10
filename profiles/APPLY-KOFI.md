@@ -16,7 +16,7 @@ Page: `ko-fi.com/A0383T5`
 | Banner | none — Ko-fi has no cover image | — |
 | Website link | `github.com/ribaudequin` | keep |
 | Category | `Software` | keep |
-| Goal | `Claude Pro` — 0% | **decide: keep, change or remove** |
+| Goal | `Claude Pro` — 0% | **remove** |
 
 **The name is the GitHub username, not the brand.** `ribaudequin` is your GitHub handle; a visitor
 arriving from the X or LinkedIn profile has no way to connect it to Bandua Studio. This is the single
@@ -66,20 +66,36 @@ No cloud. No accounts. No compromise.
 
 ---
 
-## The goal needs a decision
+## The goal — decided: remove it
 
-The page currently runs a goal: **"Claude Pro", 0%**.
+The page runs a goal: **"Claude Pro", 0%**.
 
-That is a personal tool cost, not something a supporter of the *brand* has a reason to fund. Three
-options:
+**Decision: remove the goal entirely.** Not replace it, not change it.
 
-| Option | Effect |
-|---|---|
-| **Remove the goal** | The page simply asks for support. Cleanest for a brand page. |
-| **Change it** | Point it at something a supporter cares about — e.g. code-signing certificates, which cost money and benefit the software directly. |
-| **Leave it** | Nothing breaks, but it tells visitors the money funds your IDE subscription. |
+The reasoning, which is sounder than my first recommendation:
 
-No recommendation beyond removing it, unless there is a real cost you want to fund publicly.
+A goal is an **implicit promise**. It tells visitors "this money is for X, and when we reach it, X
+happens". That creates an obligation the page then has to honour — and the failure mode is worse than
+having no goal at all. If the goal sits at 99 % for two years, the page shows a permanently unmet
+promise to every visitor. If it is never reached, it is a visible failure.
+
+Without a goal, a donation is simply support for work that already exists. No counterpart to deliver, so
+no debt.
+
+| | With a goal | Without a goal |
+|---|---|---|
+| Promises something | Yes — implicitly | No |
+| If it reaches 99 % and stalls | Stranded, publicly visible | Not applicable |
+| If it is never reached | A failed goal, permanently on display | Not applicable |
+| What a supporter expects | The objective to be met | Nothing beyond the support |
+
+I had suggested switching the goal to code-signing certificates, on the grounds that it gives supporters
+something concrete. That reasoning was incomplete: a certificate is a real cost, but a goal turns it
+into a commitment, and the commitment is the part that can go wrong.
+
+**How to remove it:** `Your Page` → the Goal → the three dots (⋯) → **Remove Goal**.
+
+Ko-fi documents three options on that menu — *Edit*, *Set New Goal*, *Remove Goal*.
 
 ---
 
@@ -108,5 +124,5 @@ knowing, and worth deciding whether the About text should acknowledge it.
 1. **Page name** → `Bandua Studio`
 2. **About** → the text above
 3. **Avatar** → upload `profiles/avatars/avatar-teal-400.png`
-4. **Goal** → decide
+4. **Goal** → remove it (`Your Page` → Goal → ⋯ → Remove Goal)
 5. **Website** → already `github.com/ribaudequin`; keep
