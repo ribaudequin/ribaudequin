@@ -93,6 +93,26 @@ I had suggested switching the goal to code-signing certificates, on the grounds 
 something concrete. That reasoning was incomplete: a certificate is a real cost, but a goal turns it
 into a commitment, and the commitment is the part that can go wrong.
 
+### The structural reason no goal fits here
+
+It is not that the alternatives are expensive. It is that **every cost this work has is recurring**:
+
+| Cost | Nature |
+|---|---|
+| Code-signing certificates | per **year** |
+| Claude Pro | per **month** |
+| Domain and hosting | per **year** |
+
+**A goal is a finish line. A recurring cost never crosses it** — there is no moment at which it is done.
+A goal for an annual cost would reach 100 % and reset to 0 % the following year, which is a strange
+thing to display to supporters.
+
+So no goal works here, and the reason is structural rather than a matter of choosing a better one.
+
+**When a goal *would* be right:** a single, bounded, one-off cost with a definite end — a specific piece
+of equipment, a one-time licence, a migration. Something that can be finished and then closed. None of
+the current costs are that.
+
 **How to remove it:** `Your Page` → the Goal → the three dots (⋯) → **Remove Goal**.
 
 Ko-fi documents three options on that menu — *Edit*, *Set New Goal*, *Remove Goal*.
