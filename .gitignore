@@ -9,3 +9,34 @@ profiles/.variants/
 
 # Working files kept local
 _local/
+
+# ---------------------------------------------------------------------------
+# This repository is the BRAND repository, not an open-source project. It is
+# public only because three public READMEs load their brand header from
+# raw.githubusercontent.com/ribaudequin/ribaudequin/main/assets/ :
+#
+#   epub-library-manager, clavis, ValidadorPT
+#
+# So the public tree carries exactly four things: README.md, LICENSE, and those
+# two SVGs in assets/. Everything else is working material and stays local.
+#
+# Do not add the directories below back. `git add -A` would otherwise republish
+# them, which is exactly how the raw captures got out the first time.
+# ---------------------------------------------------------------------------
+
+# The whole working tree, kept out of the public repository.
+brand/
+posts/
+profiles/
+mockups/
+scripts/
+
+# Raw screen captures. The Clavis ones show a password manager's drawer
+# contents: the wallet address in them is the studio's public donation wallet
+# and the phrase beside it is not a valid BIP-39 mnemonic, so nothing secret was
+# exposed — but a screenshot of a secrets app does not belong in a public repo.
+capturas de ecra clavis/
+capturas de ecra EPUBShelf/
+
+# Loose working files.
+epubicon.zip
